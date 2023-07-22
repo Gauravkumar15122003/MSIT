@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Msit</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> -->
+
+</head>
+
+<body>
+    <!-- ------navbar------ -->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="msit logo.png" height="100px"></a>
+            <div class="nav-links" id="NAVLINK">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="aboutus.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="facil.html">FACILITIES</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+   
+        <h1>Contact Us</h1>
+         
+    </section>
+    <section class="locate">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d58973.31863918738!2d88.415088!3d22.510470000000005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0273f14bca0c15%3A0xbd1ef59baa5eafd0!2sMeghnad%20Saha%20Institute%20Of%20Technology!5e0!3m2!1sen!2sus!4v1689953724686!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="contactus">
+        <div class="row">
+            <div class="contact-col">
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Address:</h5>
+                    <p>Behind Urbana Complex, Near Ruby General Hospital, Nazirabad Rd, Uchhepota , Kolkata , South 24 Parganas Pincode- 700150 West Bengal , India</p>
+                </span>
+            </div>
+            <div class="contact-col">
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+917044598807</h5>
+                </span>
+            </div>
+            <div class="contact-col">
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>info@msit.edu.in</h5>
+                </span>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ------footer------ -->
+    <section class="footer">
+        <a href="index.html"><img src="msit logo.png" height="100px"></a>
+        <div class="social">
+            <li><a href=""><i class="fa fa-facebook"></i></a></li></i>
+            <li><a href=""><i class="fa fa-twitter"></i></a></li></i>
+            <li><a href=""><i class="fa fa-linkedin"></i></a></li></i>
+            <li><a href=""><i class="fa fa-pinterest"></i></a></li></i>
+            <li><a href=""><i class="fa fa-google-plus"></i></a></li></i>
+
+        </div>
+        <h5>
+
+            © 2020 Meghnad Saha Institute of Technology All Rights Reserved.<br>
+
+            Powered by: COILED - THE GREEN MICROCLOUD
+        </h5>
+
+    </section>
+
+<!-- ------js for toggle menu----- -->
+<script>
+    var NAVLINK = document.getElementById("NAVLINK");
+    function showmenu(){
+    
+        NAVLINK.style.right = "0";
+    }
+
+    function hidemenu(){
+        NAVLINK.style.right = "-200px";
+    }
+
+</script>
+</body>
+
+</html>
